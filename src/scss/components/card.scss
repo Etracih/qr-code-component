@@ -1,0 +1,29 @@
+@use "../util/functions" as f;
+
+/* Card style */
+.card {
+  background-color: var(--white);
+  width: f.rem(320);
+  padding: f.rem(16);
+  text-align: center;
+  border-radius: f.rem(20);
+  margin: f.rem(0) f.rem(28);
+
+  &__image {
+    border-radius: f.rem(8);
+    margin-bottom: f.rem(24);
+  }
+
+  &__text {
+    h2 {
+      margin-bottom: f.rem(15);
+      color: var(--darkblue);
+    }
+
+    p {
+      margin-bottom: f.rem(26);
+      padding: f.rem(0) f.rem(19);
+      color: var(--grayishblue);
+    }
+  }
+}
