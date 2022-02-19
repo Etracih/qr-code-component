@@ -1,37 +1,27 @@
 @use "../util/functions" as f;
 
+/* Set defaults for border and font size */
 html {
   font-size: 100%;
   box-sizing: border-box;
 }
 
+/* Remove default margin and padding */
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: inherit;
 }
 
 /* Set core body defaults */
 body {
-  margin: 0;
-  padding: 0;
   min-height: 100vh;
   font-family: var(--font-outfit);
   font-size: f.rem(15);
+  font-weight: 400;
   color: var(--grayishblue);
-}
-
-/* Remove default margin */
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
 }
 
 /* Make images easier to work with */
