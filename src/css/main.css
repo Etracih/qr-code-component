@@ -59,8 +59,8 @@ a:active {
   --font-outfit: "Outfit", sans-serif;
 }
 
-/* Container layout */
-.container {
+/* Main layout */
+main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,7 +81,6 @@ a:active {
   padding: 1rem;
   text-align: center;
   border-radius: 1.25rem;
-  margin: 0rem 1.75rem;
   -webkit-box-shadow: 0 1.125rem 2.5rem -0.9375rem;
   box-shadow: 0 1.125rem 2.5rem -0.9375rem;
 }
